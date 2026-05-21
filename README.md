@@ -110,8 +110,6 @@ DATABRICKS_SCHEMA=gold
 DBX_QUERY_CONTRACT=gold
 ```
 
-> ⚠️ El archivo `.env` **no se publica** en el repositorio. El token de Databricks debe mantenerse fuera de control de versiones.
-
 ---
 
 ## 👤 Autor
