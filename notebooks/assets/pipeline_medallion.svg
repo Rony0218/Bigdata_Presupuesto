@@ -1,0 +1,60 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1400" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F6F3"/>
+      <stop offset="1" stop-color="#EEF5F9"/>
+    </linearGradient>
+    <filter id="shadow2" x="0" y="0" width="2000" height="1200" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#23313F" flood-opacity="0.14"/>
+    </filter>
+    <marker id="arrow2" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M1 1L11 6L1 11V1Z" fill="#2F4351"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="760" rx="28" fill="url(#bg2)"/>
+  <text x="80" y="82" fill="#1E2B35" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">Pipeline tipo medallion</text>
+  <text x="80" y="118" fill="#4A5D6C" font-family="Segoe UI, Arial, sans-serif" font-size="20">Bronze para inventario y crudo, Silver para normalizacion de negocio y Gold para consumo de reportes</text>
+
+  <rect x="70" y="180" width="360" height="440" rx="28" fill="#B46B2C" fill-opacity="0.12" stroke="#B46B2C" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="105" y="232" fill="#8A4E18" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Bronze</text>
+  <text x="105" y="270" fill="#5A6570" font-family="Segoe UI, Arial, sans-serif" font-size="20">Ingestion e inventario</text>
+  <rect x="103" y="302" width="294" height="98" rx="18" fill="#FFFFFF" stroke="#D7B08A"/>
+  <text x="126" y="339" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Inventario</text>
+  <text x="126" y="368" fill="#60707A" font-family="Segoe UI, Arial, sans-serif" font-size="18">Archivos detectados por fuente</text>
+  <rect x="103" y="424" width="294" height="154" rx="18" fill="#FFFFFF" stroke="#D7B08A"/>
+  <text x="126" y="461" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Filas crudas</text>
+  <text x="126" y="490" fill="#60707A" font-family="Segoe UI, Arial, sans-serif" font-size="18">approved_budget_rows_raw</text>
+  <text x="126" y="516" fill="#60707A" font-family="Segoe UI, Arial, sans-serif" font-size="18">execution_rows_raw</text>
+  <text x="126" y="542" fill="#60707A" font-family="Segoe UI, Arial, sans-serif" font-size="18">JSON compacto para trazabilidad</text>
+
+  <rect x="520" y="180" width="360" height="440" rx="28" fill="#4A8E6A" fill-opacity="0.12" stroke="#4A8E6A" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="555" y="232" fill="#2E6E4B" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Silver</text>
+  <text x="555" y="270" fill="#5A6570" font-family="Segoe UI, Arial, sans-serif" font-size="20">Normalizacion de negocio</text>
+  <rect x="553" y="302" width="294" height="98" rx="18" fill="#FFFFFF" stroke="#A7C9B6"/>
+  <text x="576" y="339" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Lineas de presupuesto</text>
+  <text x="576" y="368" fill="#60707A" font-family="Segoe UI, Arial, sans-serif" font-size="18">Clase, rubro, concepto y ceco</text>
+  <rect x="553" y="424" width="294" height="154" rx="18" fill="#FFFFFF" stroke="#A7C9B6"/>
+  <text x="576" y="461" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Transacciones de ejecucion</text>
+  <text x="576" y="490" fill="#60707A" font-family="Segoe UI, Arial, sans-serif" font-size="18">Homologacion desde hoja Datos</text>
+  <text x="576" y="516" fill="#60707A" font-family="Segoe UI, Arial, sans-serif" font-size="18">Relacion por rubros y concepto mapeado</text>
+  <text x="576" y="542" fill="#60707A" font-family="Segoe UI, Arial, sans-serif" font-size="18">Estado de calidad para auditoria</text>
+
+  <rect x="970" y="180" width="360" height="440" rx="28" fill="#5A74C8" fill-opacity="0.12" stroke="#5A74C8" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="1005" y="232" fill="#4154A2" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Gold</text>
+  <text x="1005" y="270" fill="#5A6570" font-family="Segoe UI, Arial, sans-serif" font-size="20">Consumo analitico</text>
+  <rect x="1003" y="302" width="294" height="98" rx="18" fill="#FFFFFF" stroke="#B8C5F0"/>
+  <text x="1026" y="339" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Dimensiones</text>
+  <text x="1026" y="368" fill="#60707A" font-family="Segoe UI, Arial, sans-serif" font-size="18">Clasificacion, centro de costo y concepto</text>
+  <rect x="1003" y="424" width="294" height="154" rx="18" fill="#FFFFFF" stroke="#B8C5F0"/>
+  <text x="1026" y="461" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Hechos y vistas</text>
+  <text x="1026" y="490" fill="#60707A" font-family="Segoe UI, Arial, sans-serif" font-size="18">fact_budget_monthly</text>
+  <text x="1026" y="516" fill="#60707A" font-family="Segoe UI, Arial, sans-serif" font-size="18">fact_execution_monthly</text>
+  <text x="1026" y="542" fill="#60707A" font-family="Segoe UI, Arial, sans-serif" font-size="18">vw_budget_monthly_lines y vw_execution_monthly_lines</text>
+
+  <path d="M430 400H520" stroke="#2F4351" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow2)"/>
+  <path d="M880 400H970" stroke="#2F4351" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow2)"/>
+
+  <rect x="300" y="668" width="800" height="56" rx="16" fill="#203845"/>
+  <text x="336" y="705" fill="#F3F7F8" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">La calidad del consumo analitico depende de que Silver y Gold conserven homologacion, rubro y concepto correctos</text>
+</svg>

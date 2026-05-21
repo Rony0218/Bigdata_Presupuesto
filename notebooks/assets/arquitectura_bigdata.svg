@@ -1,0 +1,65 @@
+<svg width="1400" height="820" viewBox="0 0 1400 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F3E8"/>
+      <stop offset="1" stop-color="#E7F0F7"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="2000" height="1200" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#23313F" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M1 1L11 6L1 11V1Z" fill="#314454"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="820" rx="28" fill="url(#bg)"/>
+  <text x="80" y="86" fill="#1E2B35" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">Arquitectura general para Fundación Unibán</text>
+  <text x="80" y="122" fill="#445766" font-family="Segoe UI, Arial, sans-serif" font-size="20">Desde multiples archivos Excel hasta una capa Gold consultable por una app web y presentable en GitHub</text>
+
+  <rect x="70" y="180" width="300" height="480" rx="26" fill="#FFF8EF" stroke="#D7BE93" stroke-width="2" filter="url(#shadow)"/>
+  <text x="100" y="228" fill="#7A5126" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Fuentes de datos</text>
+  <rect x="98" y="258" width="244" height="92" rx="18" fill="#FFFFFF" stroke="#E3D2B7"/>
+  <text x="120" y="295" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Ejecucion presupuestal</text>
+  <text x="120" y="324" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Archivos .xlsx por ano y periodo</text>
+  <rect x="98" y="374" width="244" height="92" rx="18" fill="#FFFFFF" stroke="#E3D2B7"/>
+  <text x="120" y="411" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Presupuesto aprobado</text>
+  <text x="120" y="440" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Archivos .xlsm normalizados</text>
+  <rect x="98" y="490" width="244" height="124" rx="18" fill="#FFFFFF" stroke="#E3D2B7"/>
+  <text x="120" y="527" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Consolidacion</text>
+  <text x="120" y="556" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Hoja Datos con:</text>
+  <text x="120" y="582" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Rubros_Ingresos</text>
+  <text x="120" y="607" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Rubros_Gastos / HomologacionCeco</text>
+
+  <rect x="450" y="180" width="430" height="480" rx="26" fill="#EFF7F3" stroke="#9CC6B1" stroke-width="2" filter="url(#shadow)"/>
+  <text x="480" y="228" fill="#24563E" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Procesamiento</text>
+  <rect x="480" y="258" width="370" height="104" rx="18" fill="#FFFFFF" stroke="#BCD9CC"/>
+  <text x="506" y="297" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Python ETL</text>
+  <text x="506" y="326" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Scripts de carga, normalizacion y publicacion</text>
+  <rect x="480" y="388" width="370" height="92" rx="18" fill="#FFFFFF" stroke="#BCD9CC"/>
+  <text x="506" y="425" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Reglas de negocio</text>
+  <text x="506" y="454" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Homologacion de cecos y relacion por rubros</text>
+  <rect x="480" y="506" width="370" height="124" rx="18" fill="#FFFFFF" stroke="#BCD9CC"/>
+  <text x="506" y="543" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Databricks SQL Statements API</text>
+  <text x="506" y="572" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Sin drivers pesados, solo HTTP</text>
+  <text x="506" y="598" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Compatible con Student Edition</text>
+
+  <rect x="960" y="180" width="370" height="480" rx="26" fill="#F3F0FA" stroke="#BDB1DB" stroke-width="2" filter="url(#shadow)"/>
+  <text x="990" y="228" fill="#4A3974" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Consumo</text>
+  <rect x="990" y="258" width="310" height="92" rx="18" fill="#FFFFFF" stroke="#D6CDED"/>
+  <text x="1015" y="295" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Capa Gold</text>
+  <text x="1015" y="324" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Vistas vw_* para reportes y app</text>
+  <rect x="990" y="374" width="310" height="108" rx="18" fill="#FFFFFF" stroke="#D6CDED"/>
+  <text x="1015" y="411" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Aplicacion web</text>
+  <text x="1015" y="440" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Presupuesto vs ejecucion</text>
+  <text x="1015" y="466" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Filtros por ano, libro, clase y detalle</text>
+  <rect x="990" y="506" width="310" height="124" rx="18" fill="#FFFFFF" stroke="#D6CDED"/>
+  <text x="1015" y="543" fill="#24333F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Entrega academica</text>
+  <text x="1015" y="572" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Notebook de presentacion</text>
+  <text x="1015" y="598" fill="#5F6E79" font-family="Segoe UI, Arial, sans-serif" font-size="18">Repositorio GitHub con codigo y docs</text>
+
+  <path d="M370 420H450" stroke="#314454" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M880 420H960" stroke="#314454" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <rect x="440" y="700" width="520" height="68" rx="18" fill="#1F3947"/>
+  <text x="470" y="742" fill="#F4F7F8" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Idea central: evolucionar un modelo institucional hacia un flujo auditable, reproducible y multiusuario</text>
+</svg>

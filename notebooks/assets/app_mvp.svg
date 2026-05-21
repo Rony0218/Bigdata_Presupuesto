@@ -1,0 +1,70 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1400" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F8FA"/>
+      <stop offset="1" stop-color="#EDF3F1"/>
+    </linearGradient>
+    <filter id="shadow3" x="0" y="0" width="2000" height="1200" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1F2F39" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="760" rx="28" fill="url(#bg3)"/>
+  <text x="80" y="82" fill="#1E2B35" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">Aplicacion web de consulta presupuestal</text>
+  <text x="80" y="118" fill="#4A5D6C" font-family="Segoe UI, Arial, sans-serif" font-size="20">Servidor HTTP en Python estandar, autenticacion local y consumo de Databricks via SQL Statements API</text>
+
+  <rect x="100" y="170" width="1200" height="520" rx="28" fill="#FFFFFF" stroke="#D5DEE5" stroke-width="2" filter="url(#shadow3)"/>
+  <rect x="100" y="170" width="1200" height="54" rx="28" fill="#203845"/>
+  <circle cx="138" cy="197" r="8" fill="#F58C82"/>
+  <circle cx="164" cy="197" r="8" fill="#F3C96D"/>
+  <circle cx="190" cy="197" r="8" fill="#7FC89B"/>
+  <text x="1080" y="204" fill="#F1F5F7" font-family="Segoe UI, Arial, sans-serif" font-size="18">127.0.0.1:8010</text>
+
+  <rect x="124" y="248" width="260" height="418" rx="22" fill="#EEF3F6"/>
+  <text x="152" y="286" fill="#1F3341" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Filtros</text>
+  <rect x="152" y="312" width="204" height="48" rx="14" fill="#203845"/>
+  <text x="182" y="343" fill="#F4F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="20">Programas</text>
+  <rect x="152" y="376" width="204" height="42" rx="12" fill="#FFFFFF" stroke="#C7D3DB"/>
+  <text x="176" y="403" fill="#2E4250" font-family="Segoe UI, Arial, sans-serif" font-size="18">Presupuesto 2025</text>
+  <rect x="152" y="432" width="204" height="42" rx="12" fill="#FFFFFF" stroke="#C7D3DB"/>
+  <text x="176" y="459" fill="#2E4250" font-family="Segoe UI, Arial, sans-serif" font-size="18">Ejecucion 2025</text>
+  <rect x="152" y="488" width="204" height="42" rx="12" fill="#FFFFFF" stroke="#C7D3DB"/>
+  <text x="176" y="515" fill="#2E4250" font-family="Segoe UI, Arial, sans-serif" font-size="18">Clase: Gasto</text>
+  <rect x="152" y="544" width="204" height="96" rx="16" fill="#FFFFFF" stroke="#C7D3DB"/>
+  <text x="176" y="575" fill="#2E4250" font-family="Segoe UI, Arial, sans-serif" font-size="18">Busqueda y filtros</text>
+  <text x="176" y="603" fill="#62727D" font-family="Segoe UI, Arial, sans-serif" font-size="16">texto, diferencias, exportacion</text>
+
+  <text x="422" y="286" fill="#1F3341" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Resumen y detalle</text>
+  <rect x="422" y="312" width="252" height="92" rx="18" fill="#FFF7E8" stroke="#E4CAA0"/>
+  <text x="446" y="344" fill="#7D5A22" font-family="Segoe UI, Arial, sans-serif" font-size="18">Presupuesto anual</text>
+  <text x="446" y="383" fill="#1F3341" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">$ 5.744 B</text>
+  <rect x="698" y="312" width="252" height="92" rx="18" fill="#EAF6EF" stroke="#B9D8C4"/>
+  <text x="722" y="344" fill="#2F6B49" font-family="Segoe UI, Arial, sans-serif" font-size="18">Ejecucion acumulada</text>
+  <text x="722" y="383" fill="#1F3341" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">$ 6.861 B</text>
+  <rect x="974" y="312" width="252" height="92" rx="18" fill="#EEF0FA" stroke="#C8CDEB"/>
+  <text x="998" y="344" fill="#4A5698" font-family="Segoe UI, Arial, sans-serif" font-size="18">Desviacion</text>
+  <text x="998" y="383" fill="#1F3341" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">$ +1.116 B</text>
+
+  <rect x="422" y="432" width="804" height="208" rx="22" fill="#FBFCFD" stroke="#D8E0E6"/>
+  <text x="448" y="468" fill="#1F3341" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Detalle por rubro</text>
+  <line x1="448" y1="490" x2="1200" y2="490" stroke="#D7DFE5"/>
+  <text x="448" y="522" fill="#62727D" font-family="Segoe UI, Arial, sans-serif" font-size="16">Concepto</text>
+  <text x="850" y="522" fill="#62727D" font-family="Segoe UI, Arial, sans-serif" font-size="16">Presupuesto</text>
+  <text x="1008" y="522" fill="#62727D" font-family="Segoe UI, Arial, sans-serif" font-size="16">Ejecucion</text>
+  <text x="1138" y="522" fill="#62727D" font-family="Segoe UI, Arial, sans-serif" font-size="16">Desviacion</text>
+
+  <text x="448" y="560" fill="#253844" font-family="Segoe UI, Arial, sans-serif" font-size="18">Gastos especificos de proyectos</text>
+  <text x="850" y="560" fill="#253844" font-family="Segoe UI, Arial, sans-serif" font-size="18">2.327 B</text>
+  <text x="1008" y="560" fill="#253844" font-family="Segoe UI, Arial, sans-serif" font-size="18">3.548 B</text>
+  <text x="1138" y="560" fill="#1F7A46" font-family="Segoe UI, Arial, sans-serif" font-size="18">+1.221 B</text>
+
+  <text x="448" y="596" fill="#253844" font-family="Segoe UI, Arial, sans-serif" font-size="18">Gastos de personal</text>
+  <text x="850" y="596" fill="#253844" font-family="Segoe UI, Arial, sans-serif" font-size="18">1.300 B</text>
+  <text x="1008" y="596" fill="#253844" font-family="Segoe UI, Arial, sans-serif" font-size="18">1.258 B</text>
+  <text x="1138" y="596" fill="#A64D40" font-family="Segoe UI, Arial, sans-serif" font-size="18">-0.042 B</text>
+
+  <text x="448" y="632" fill="#253844" font-family="Segoe UI, Arial, sans-serif" font-size="18">Honorarios</text>
+  <text x="850" y="632" fill="#253844" font-family="Segoe UI, Arial, sans-serif" font-size="18">1.031 B</text>
+  <text x="1008" y="632" fill="#253844" font-family="Segoe UI, Arial, sans-serif" font-size="18">0.944 B</text>
+  <text x="1138" y="632" fill="#A64D40" font-family="Segoe UI, Arial, sans-serif" font-size="18">-0.087 B</text>
+</svg>
