@@ -117,5 +117,5 @@ DBX_QUERY_CONTRACT=gold
 ## 👤 Autor
 
 **Rony Guerrero**  
-Gestión Financiera — Fundación Unibán  
+Gestión Financiera 
 Proyecto presentado para curso de Big Data · Mayo 2026
