@@ -1,4 +1,4 @@
-# 📊 BigData — Gestión Presupuestal Fundación Unibán
+# 📊 BigData — Gestión Presupuestal 
 
 > Proyecto académico de Big Data que modela la evolución de un sistema de gestión presupuestal institucional: desde Excel/Power Query hasta una arquitectura medallion en Databricks con una aplicación web multiusuario.
 
